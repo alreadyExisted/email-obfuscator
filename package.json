@@ -1,0 +1,35 @@
+{
+  "name": "@alreadyexisted/email-obfuscator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/index",
+  "scripts": {
+    "clean": "rimraf dist",
+    "compile": "tsc -p tsconfig.json",
+    "build": "run-s clean compile",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "alreadyExisted",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alreadyExisted/email-obfuscator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alreadyExisted/email-obfuscator/issues"
+  },
+  "homepage": "https://github.com/alreadyExisted/email-obfuscator",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "@typescript-eslint/parser": "^2.17.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.5"
+  }
+}
