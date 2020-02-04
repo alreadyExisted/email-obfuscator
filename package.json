@@ -12,7 +12,12 @@
     "test": "jest",
     "prepublishOnly": "run-s build test"
   },
-  "keywords": [],
+  "keywords": [
+    "email obfuscator",
+    "email",
+    "obfuscate",
+    "obfuscator"
+  ],
   "author": "alreadyExisted",
   "license": "MIT",
   "repository": {
